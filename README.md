@@ -6,19 +6,19 @@ Hệ thống quản lý sinh viên được xây dựng với Vue.js 3 (Frontend
 
 ### Dành cho Giáo viên:
 
-- 🔐 Đăng nhập hệ thống
-- 📊 Xem dashboard thống kê
-- 👥 Quản lý danh sách sinh viên
-- ➕ Thêm sinh viên mới
-- ✏️ Chỉnh sửa thông tin sinh viên
-- 🗑️ Xóa sinh viên
-- 🔍 Tìm kiếm và lọc sinh viên
+- Đăng nhập hệ thống
+- Xem dashboard thống kê
+- Quản lý danh sách sinh viên
+- Thêm sinh viên mới
+- Chỉnh sửa thông tin sinh viên
+- Xóa sinh viên
+- Tìm kiếm và lọc sinh viên
 
 ### Dành cho Sinh viên:
 
-- 🔐 Đăng nhập hệ thống
-- 📋 Xem thông tin cá nhân
-- 📈 Xem điểm CPA và tín chỉ
+- Đăng nhập hệ thống
+- Xem thông tin cá nhân
+- Xem điểm CPA và tín chỉ
 
 ## Công nghệ sử dụng
 
@@ -141,20 +141,3 @@ Tạo file `.env` trong thư mục `client`:
 \`\`\`
 VITE_API_URL=http://localhost:3000/api
 \`\`\`
-
-## Đóng góp
-
-1. Fork dự án
-2. Tạo branch mới (`git checkout -b feature/AmazingFeature`)
-3. Commit thay đổi (`git commit -m 'Add some AmazingFeature'`)
-4. Push lên branch (`git push origin feature/AmazingFeature`)
-5. Tạo Pull Request
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Liên hệ
-
-- Email: your-email@example.com
-- Project Link: [https://github.com/yourusername/student-management](https://github.com/yourusername/student-management)
