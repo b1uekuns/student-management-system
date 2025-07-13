@@ -90,23 +90,28 @@ npm run create-student
 
 ## Cấu trúc dự án
 
-\`\`\`
+```
 student-management/
-├── client/ # Frontend (Vue.js)
-│ ├── src/
-│ │ ├── components/
-│ │ ├── views/
-│ │ ├── stores/
-│ │ └── router/
-│ └── package.json
-├── server/ # Backend (Node.js)
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── middleware/
-│ └── package.json
+├── client/                 # Frontend (Vue.js)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── views/
+│   │   │   ├── student/
+│   │   │   └── teacher/
+│   │   ├── stores/
+│   │   └── router/
+│   ├── public/
+│   └── package.json
+├── server/                 # Backend (Node.js)
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   ├── scripts/
+│   └── package.json
 └── README.md
-\`\`\`
+```
 
 ## API Endpoints
 
@@ -125,19 +130,3 @@ student-management/
 ### Statistics:
 
 - `GET /api/statistics` - Lấy thống kê tổng quan
-
-## Môi trường phát triển
-
-Tạo file `.env` trong thư mục `server`:
-\`\`\`
-MONGO_URI=mongodb://localhost:27017/student-management
-JWT_SECRET=your_jwt_secret_key
-PORT=3000
-NODE_ENV=development
-CORS_ORIGIN=http://localhost:5173
-\`\`\`
-
-Tạo file `.env` trong thư mục `client`:
-\`\`\`
-VITE_API_URL=http://localhost:3000/api
-\`\`\`
